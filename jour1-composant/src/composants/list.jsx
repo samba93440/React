@@ -4,11 +4,13 @@ class List extends Component {
   state = {};
   render() {
     return (
-      <ul>
-        <li>Lundi</li>
-        <li>Mardi</li>
-        <li>Mercredi</li>
-      </ul>
+      <React.Fragment>
+        <ul>
+          <li>Lundi</li>
+          <li className="badge badge-success">Mardi</li>
+          <li>Mercredi</li>
+        </ul>
+      </React.Fragment>
     );
   }
 }
