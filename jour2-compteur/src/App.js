@@ -22,6 +22,11 @@ class App extends Component {
       { id: 42, valeur: 10 }
     ]
   };
+  constructor() {}
+
+  componentDidMount() {}
+  componentDidUpdate() {}
+  componentWillUnmount() {}
 
   btnClick = objet => {
     const compteurs = [...this.state.etat];
