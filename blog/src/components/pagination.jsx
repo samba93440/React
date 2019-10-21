@@ -36,14 +36,14 @@ const Pagination = ({
               pageEncours === numPage ? "page-item active" : "page-item"
             }
           >
-            <a
+            <button
               className="page-link"
               href="#"
               onClick={e => gestionClick(e, numPage)}
             >
               {/*e = eviter le rechargement de la page*/}
               {numPage}
-            </a>
+            </button>
           </li>
         );
       })}
